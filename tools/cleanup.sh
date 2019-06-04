@@ -11,6 +11,7 @@ find . -name "*.gcda" -exec rm {} \;
 find . -name "*.egg-info" -exec rm -rf {} 2>/dev/null \;
 find . -name "__pycache__" -exec rm -rf {} 2>/dev/null \;
 
+rm -rf .vscode/ipch
 rm -f */*~
 rm -f *~
 rm -f aclocal.m4
